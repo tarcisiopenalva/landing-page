@@ -8,19 +8,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <img class="logo" src="images/logo.png" alt="Logo">
-    <h1>WORKSHOP</h1>
-    <h2>Primeiros Passos com Programação Web</h2>
-    <h3>100% Online e Gratuito</h3>
+    <div class="content">
+        <img class="logo" src="images/logo.png" alt="Logo">
 
-    <form class="form">
+        <h1>WORKSHOP</h1>
+        <h2>Primeiros Passos com Programação Web</h2>
+        <h3>100% Online e Gratuito</h3>
 
-        <input type="text" placeholder="Nome"><br>
-        
-        <input type="email" placeholder="E-mail"><br>
+        <form>
+            <input type="text" placeholder="Nome" class="input-text">
+            
+            <input type="email" placeholder="E-mail" required class="input-text">
 
-        <input type="checkbox"><Label>Sim, desejo me inscrever no Workshop e receber emails sobre tecnologia, programação e ofertas.</Label>
+            <label class="label-checkbox">
+                <input type="checkbox">
+                Sim, desejo me inscrever no Workshop e receber e-mails sobre tecnologia, programação e ofertas.
+            </label>
 
-    </form>
+            <button class="button">Quero receber o acesso!</button>
+        </form>
+    </div>
 </body>
 </html>
