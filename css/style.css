@@ -12,7 +12,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     width: 130px;
 }
 
@@ -30,6 +30,36 @@ h2 {
 
 h3 {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 20px;
+}
+
+.form {
+    margin-top: 20px;
+    text-align: center;
+}
+input[type=text] {
+    width: 47%;
+    height: 40px;
+    padding: 15px 0px 15px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+input[type=email] {
+    width: 47%;
+    height: 40px;
+    padding: 15px 0px 15px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+}
+
+input[type=checkbox] {
+    margin-top: 20px;
+    margin-right: 10px;
 }
